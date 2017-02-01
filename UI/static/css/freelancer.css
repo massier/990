@@ -1,0 +1,175 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    /*background: #4294BD;*/
+}
+
+.navbar-header a{
+    color: white !important;
+    font-size: 2em !important;
+    line-height: 50px;
+    height: 50px;
+    padding-left: 30px;
+}
+
+.navbar-collapse li{
+    top: 35px;
+    margin-left:20px;
+}
+
+.navbar-collapse li a{
+    line-height: 30px;
+    height: 30px;
+    color: white !important;
+    font-size: 1em !important;
+    padding-top:0;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.navbar-form {
+    line-height: 55px;
+    height: 55px;
+    color: white;
+    font-size: 1em !important;
+    margin-right:10px;
+}
+
+.navbar-form input {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.search_page .col-md-8 {
+    background: #b2e8fa;
+    margin: auto;
+    padding-top: 45px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    height: 1000px;
+}
+.download_page .col-md-6{
+    background: #b2e8fa;
+    margin: auto;
+    padding-top: 45px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    height: 250px;
+}
+
+.download_page .col-md-12 {
+    background: #fbffff;
+    margin: auto;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    height: 800px;
+}
+
+.search_page .panel {
+    width: 70%;
+    height: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search_page .panel-body {
+    padding-top: 25px;
+    padding-left: 40px;
+}
+
+.return_page .col-md-8 {
+    background: #fbffff;
+    left:55px;
+    margin: auto;
+    padding: 15px;
+    width: 90%;
+    height: 1000px;
+}
+
+.return_page .col-md-8 table{
+    margin: auto;
+    padding: auto;
+    width: 50%;
+    height: 100%;
+}
+
+.return_page .table tr,th,td {
+    margin: auto;
+    text-align: center;
+}
+
+.download_page .col-md-6 .panel {
+    width: 60%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.download_page .col-md-6 .panel-body {
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+.download_page .col-md-12 .panel {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.download_page .col-md-12 .panel-body {
+    height: 100%;
+    padding-left: 40px;
+    background: #f5f5f5;
+}
+
+.download_page .col-md-12 table{
+    margin: auto;
+    padding: auto;
+    width: 50%;
+    height: 100%;
+}
+
+.download_page .table tr, th, td{
+    margin: auto;
+    text-align: center;
+
+}
+
+.search_page .form-horizontal {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search_page .form-horizontal label {
+    line-height: 34px;
+}
+
+.download_page .form-horizontal {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.download_page .form-horizontal label {
+    line-height: 25px;
+}
+
+@media (min-width: 768px) {
+    .form-horizontal .form-group {
+        margin-bottom: 15px;
+    }
+
+}
